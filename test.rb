@@ -7,6 +7,6 @@ a.each do |c|
       b.push(x.method(c).call(y))
     else
       b.push(c.to_i)
-  end
+    end
   puts b.join(' ')	
 end
